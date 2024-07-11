@@ -47,4 +47,15 @@ button {
     border: 2px solid #A3827B;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #A3827B;
+    color: #EBEBEB;
+}
+
+a {
+    text-decoration: none;
 }
