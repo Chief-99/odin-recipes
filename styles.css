@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    color: #304A4A;
+    color: #517B7B;
     font-family: 'Arial Narrow Bold', Arial, sans-serif;
 }
 
@@ -36,4 +36,15 @@ i {
 
 i { 
     font-size: 15px;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px 24px;
+    width: 20em;
+    display: block;
+    background-color: #E6DDDB;
+    border: 2px solid #A3827B;
+    text-align: center;
+    cursor: pointer;
 }
