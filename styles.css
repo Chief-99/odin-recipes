@@ -50,6 +50,7 @@ button {
     text-decoration: none;
     transition-duration: 0.5s;
     font-size: large;
+    color: #785A54;
 }
 
 button:hover {
