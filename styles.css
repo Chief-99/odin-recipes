@@ -25,3 +25,10 @@ h2 {
     color: #304A4A;
     font-family: 'Arial Narrow Bold', Arial, sans-serif;
 }
+
+.description,
+.ingredients,
+.steps {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1F1F1F;
+} 
