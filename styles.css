@@ -28,7 +28,12 @@ h2 {
 
 .description,
 .ingredients,
-.steps {
+.steps,
+i {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1F1F1F;
 } 
+
+i { 
+    font-size: 15px;
+}
