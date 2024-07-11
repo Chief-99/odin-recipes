@@ -16,7 +16,12 @@ img {
 h1 {
     text-align: center;
     padding: 20px;
-    border-bottom: solid #79151C 5px; 
+    border-bottom: solid #BCA39F 5px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #0D0D0D;
+    color: #383232;
+}
+
+h2 {
+    color: #304A4A;
+    font-family: 'Arial Narrow Bold', Arial, sans-serif;
 }
