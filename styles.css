@@ -49,6 +49,7 @@ button {
     cursor: pointer;
     text-decoration: none;
     transition-duration: 0.5s;
+    font-size: large;
 }
 
 button:hover {
