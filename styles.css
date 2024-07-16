@@ -33,6 +33,7 @@ h2 {
 i {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1F1F1F;
+    font-size: 18px;
 } 
 
 i { 
@@ -59,6 +60,7 @@ button {
 button:hover {
     background-color: #A3827B;
     color: #EBEBEB;
+    font-size: 19px;
 }
 
 a {
