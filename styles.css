@@ -42,8 +42,9 @@ i {
 
 button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 16px 24px;
     width: 20em;
+    height: 4em;
+    padding: 16px 24px;
     display: block;
     background-color: #E6DDDB;
     border: 2px solid #A3827B;
@@ -61,6 +62,7 @@ button:hover {
     background-color: #A3827B;
     color: #EBEBEB;
     font-size: 19px;
+    
 }
 
 a {
