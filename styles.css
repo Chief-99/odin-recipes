@@ -6,6 +6,11 @@
     line-height: 1.6;
 }
 
+.header {
+    text-align: center;
+
+}
+
 img {
     margin-top: 20px;
     height: auto;
@@ -14,7 +19,7 @@ img {
     margin-right: auto;
 }
 
-h1 {
+.header-recipe {
     text-align: center;
     padding: 20px;
     border-bottom: solid #BCA39F 5px; 
