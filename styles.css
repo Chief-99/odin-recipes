@@ -1,8 +1,12 @@
-.header {
-    width: max-content;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.header { 
     text-align: center;
+    padding: 30px;
     background-color: #A3827B;
-    padding: 40px;
+    color: #EBEBEB;
 }
 
 .body-recipe {
@@ -24,7 +28,7 @@ img {
 .header-recipe {
     text-align: center;
     padding: 20px;
-    border-bottom: solid #BCA39F 5px; 
+    border-bottom: solid #AE786F 5px; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #604743;
 }
@@ -54,20 +58,20 @@ button {
     padding: 16px 24px;
     display: block;
     background-color: #E6DDDB;
-    border: 2px solid #A3827B;
+    border: 2px solid #AE786F;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
     transition-duration: 0.3s;
     font-size: large;
-    color: #785A54;
+    color: #7c5b55;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 button:hover {
-    background-color: #A3827B;
+    background-color: #AE786F;
     color: #EBEBEB;
     font-size: 19px;
     
