@@ -37,7 +37,7 @@ html, body {
 
 }
 
-.img-pancakes {
+.img-mac, .img-pies, .img-pancakes {
     width: 500px;
     height: 400px;
     object-fit: cover;
