@@ -2,6 +2,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+
+
+/* Index page section */
+
+
 .header { 
     text-align: center;
     padding: 30px;
@@ -15,6 +21,32 @@ html, body {
     box-sizing: border-box;
     line-height: 1.6;
 }
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-card {
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+    border: 2px black solid;
+    margin: 4em;
+
+}
+
+.img-pancakes {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0;
+}
+
+
+/* Recipe section  */
+
 
 .body-recipe {
     width: 800px;
