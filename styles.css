@@ -35,7 +35,7 @@ html, body {
 .content-card {
     display: inline-block;
     width: 500px;
-    height: 600px;
+    height: 550px;
     border: 2px black solid;
     margin: 4em;
 
@@ -120,4 +120,5 @@ button:hover {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
