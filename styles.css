@@ -43,9 +43,19 @@ html, body {
     width: 500px;
     height: 550px;
     border: 2px #416253 solid;
-    margin: 4em;
+    margin: 2em;
     border-radius: 8px;
     text-align: center;
+    overflow: hidden;
+}
+
+.content-card img {
+    opacity: 1;
+    transition: 0.25s ease-in-out;
+}
+
+.content-card:hover img {
+    opacity: 0.5;
 }
 
 .img-mac, .img-pies, .img-pancakes {
