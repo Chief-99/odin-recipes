@@ -3,17 +3,21 @@ html, body {
     padding: 0;
 }
 
+@font-face {
+    font-family: Cafe;
+    src: url(fonts/louis_george_cafe/louis-george-cafe.ttf);
+}
 
-
-/* Index page section */
+/* ! Index page section */
 
 
 .header { 
     text-align: center;
     padding: 30px;
-    background-color: #AE786F;
-    color: #EBEBEB;
+    background-color: #395649;
+    color: #F3F7F5;
     font-size: 25px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 .body-index {
@@ -45,13 +49,13 @@ html, body {
 }
 
 
-/* Recipe section  */
+/* ! Recipe section  */
 
 
 .body-recipe {
     width: 800px;
     margin: auto;
-    background-color: #EBEBEB;
+    background-color: #F3F7F5;
     box-sizing: border-box;
     line-height: 1.6;
 }
@@ -67,13 +71,13 @@ img {
 .header-recipe {
     text-align: center;
     padding: 20px;
-    border-bottom: solid #AE786F 5px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #604743;
+    border-bottom: solid #314941 5px; 
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #314941;
 }
 
 h2 {
-    color: #517B7B;
+    color: #527A6C;
     font-family: 'Arial Narrow Bold', Arial, sans-serif;
 }
 
@@ -112,8 +116,6 @@ button {
 button:hover {
     background-color: #AE786F;
     color: #EBEBEB;
-    font-size: 19px;
-    
 }
 
 a {
