@@ -49,7 +49,7 @@ html, body {
 }
 
 
-/* ! Recipe section  */
+/* ! Recipes section  */
 
 
 .body-recipe {
@@ -71,7 +71,7 @@ img {
 .header-recipe {
     text-align: center;
     padding: 20px;
-    border-bottom: solid #314941 5px; 
+    border-bottom: solid #395649 5px; 
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: #314941;
 }
@@ -85,13 +85,13 @@ h2 {
 .ingredients,
 .steps,
 i {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cafe;
     color: #1F1F1F;
-    font-size: 18px;
+    font-size: 24px;
 } 
 
 i { 
-    font-size: 15px;
+    font-size: 20px;
 }
 
 button {
