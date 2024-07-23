@@ -19,11 +19,13 @@ html, body {
 
 .header { 
     text-align: center;
+    width: auto;
     padding: 30px;
     background-color: #395649;
     color: #F3F7F5;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 .body-index {
@@ -55,7 +57,7 @@ html, body {
 }
 
 .content-card:hover img {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .content-card span {
