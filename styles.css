@@ -58,6 +58,22 @@ html, body {
     opacity: 0.5;
 }
 
+.content-card span {
+    transition: 0.25s ease-in-out;
+}
+
+.content-card:hover span {
+    color: #AE786F;
+}
+
+.content-card {
+    transition: 0.25s;
+}
+
+.content-card:hover {
+    border: 2px solid #AE786F;
+}
+
 .img-mac, .img-pies, .img-pancakes {
     width: 500px;
     height: 400px;
