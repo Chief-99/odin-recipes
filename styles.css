@@ -37,11 +37,16 @@ html, body {
 .container-cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+@media (min-width: 600px) {
+    .content-card {
+        flex-direction: row;
+    }
 }
 
 .content-card {
-    display: inline-block;
     width: 500px;
     height: 550px;
     border: 2px #416253 solid;
