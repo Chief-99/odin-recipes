@@ -15,11 +15,7 @@ html, body {
     font-weight: bold;
 }
 
-@media (min-width: 600px) {
-    .content-card {
-        flex-direction: row;
-    }
-}
+
 
 /* * Header */
 
