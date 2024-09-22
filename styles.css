@@ -45,7 +45,7 @@ body {
 
 .container-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -55,6 +55,7 @@ body {
     border: 2px hsl(153, 20%, 32%) solid;
     border-radius: 8px;
     text-align: center;
+    margin: 2rem;
 }
 
 .content-card,
