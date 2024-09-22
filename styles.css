@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -14,7 +15,13 @@ html, body {
     font-weight: bold;
 }
 
-/* ! Index page section */
+@media (min-width: 600px) {
+    .content-card {
+        flex-direction: row;
+    }
+}
+
+/* * Header */
 
 
 .header { 
@@ -22,15 +29,17 @@ html, body {
     width: auto;
     padding: 30px;
     background-color: #395649;
-    color: #F3F7F5;
+    color: hsl(150, 20%, 96%);
     font-size: 30px;
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    margin-bottom: 65px;
 }
 
-.body-index {
-    background-color: #EBEBEB;
-    box-sizing: border-box;
+/* * Body */
+
+body {
+    background-color: hsl(0, 0%, 92%);
     line-height: 1.6;
 }
 
@@ -40,45 +49,31 @@ html, body {
     flex-wrap: wrap;
 }
 
-@media (min-width: 600px) {
-    .content-card {
-        flex-direction: row;
-    }
-}
-
 .content-card {
-    width: 500px;
-    height: 550px;
-    border: 2px #416253 solid;
-    margin: 2em;
+    max-width: 31.25rem;
+    min-height: 34.375rem;
+    border: 2px hsl(153, 20%, 32%) solid;
     border-radius: 8px;
     text-align: center;
-    overflow: hidden;
 }
 
-.content-card img {
-    opacity: 1;
-    transition: 0.25s ease-in-out;
+.content-card,
+.content-card img,
+.content-card span {
+    transition: 0.3s ease-in-out;
 }
 
 .content-card:hover img {
-    opacity: 0.7;
-}
-
-.content-card span {
-    transition: 0.25s ease-in-out;
+    opacity: 0.8;
 }
 
 .content-card:hover span {
-    color: #AE786F;
-}
-
-.content-card {
-    transition: 0.25s;
+    color: hsl(21, 27%, 56%);
 }
 
 .content-card:hover {
-    border: 2px solid #AE786F;
+    border: 2px solid hsl(21, 27%, 56%);
+    background-color: hsl(22, 15%, 97%);
 }
 
 .img-mac, .img-pies, .img-pancakes {
@@ -91,22 +86,22 @@ html, body {
 
 a {
     text-decoration: none;
-    color: #395649;
-    font-family: Cafe;
+    color: hsl(153, 20%, 30%);
+    font-family: Cafe, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2rem;
     margin: auto;
     text-align: center;
 }
 
 
-/* ! Recipes section  */
+/* * Recipes  */
 
 
 .body-recipe {
     width: 800px;
     margin: auto;
-    background-color: #F3F7F5;
+    background-color: hsl(150, 20%, 96%);
     box-sizing: border-box;
     line-height: 1.6;
 }
@@ -122,13 +117,13 @@ img {
 .header-recipe {
     text-align: center;
     padding: 20px;
-    border-bottom: solid #395649 5px; 
+    border-bottom: solid hsl(153, 20%, 28%) 5px; 
     font-family: 'Arial Narrow', Arial, sans-serif;
-    color: #314941;
+    color: hsl(159, 21%, 24%);
 }
 
 h2 {
-    color: #527A6C;
+    color: hsl(159, 20%, 40%);
     font-family: 'Arial Narrow Bold', Arial, sans-serif;
 }
 
@@ -136,8 +131,8 @@ h2 {
 .ingredients,
 .steps,
 i {
-    font-family: Cafe;
-    color: #1F1F1F;
+    font-family: Cafe, Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 12%);
     font-size: 24px;
 } 
 
@@ -151,20 +146,20 @@ button {
     height: 4em;
     padding: 16px 24px;
     display: block;
-    background-color: #E6DDDB;
-    border: 2px solid #AE786F;
+    background-color: hsl(11, 18%, 88%);
+    border: 2px solid hsl(9, 28%, 56%);
     text-align: center;
     cursor: pointer;
     text-decoration: none;
     transition-duration: 0.3s;
     font-size: large;
-    color: #7c5b55;
+    color: hsl(9, 19%, 41%);
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 button:hover {
-    background-color: #AE786F;
-    color: #EBEBEB;
+    background-color: hsl(9, 28%, 56%);
+    color: hsl(0, 0%, 92%);
 }
